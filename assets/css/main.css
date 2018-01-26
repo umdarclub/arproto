@@ -1623,8 +1623,8 @@
 	}
 
 	body {
-		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/arclub.jpg");
+		background-color: #0e0b16;
+		background-image: linear-gradient(to top, rgba(14, 11, 22, .9), rgba(14, 11, 22, 1)), url("../../images/arclub.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -3118,7 +3118,7 @@
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			opacity: 1;
-			margin: 0 0 1.3em 0;
+			/*margin: 0 0 1.3em 0;*/
 		}
 
 			#banner .logo .icon {
@@ -3555,36 +3555,36 @@
 			}
 
 			.wrapper.spotlight.style2 {
-				background-color: #ff5630;
+				background-color: #ff3b3f;
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:#ff5630' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:#ff3b3f' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style2:before {
-					box-shadow: inset 0 -1px 0 0 #ff5630, 0 1px 0 0 #ff5630;
+					box-shadow: inset 0 -1px 0 0 #ff3b3f, 0 1px 0 0 #ff3b3f;
 				}
 
 				.wrapper.spotlight.style2:after {
-					box-shadow: inset 0 -1px 0 0 #ff5630, 0 1px 0 0 #ff5630;
-					box-shadow: inset 0 -1px 0 0 #ff5630, 0 1px 0 0 #ff5630;
+					box-shadow: inset 0 -1px 0 0 #ff3b3f, 0 1px 0 0 #ff3b3f;
+					box-shadow: inset 0 -1px 0 0 #ff3b3f, 0 1px 0 0 #ff3b3f;
 				}
 
 			.wrapper.spotlight.style3 {
-				background-color: #000000;
+				background-color: #373737;
 			}
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:#000000' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:#373737' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style3:before {
-					box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
+					box-shadow: inset 0 -1px 0 0 #373737, 0 1px 0 0 #373737;
 				}
 
 				.wrapper.spotlight.style3:after {
-					box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
+					box-shadow: inset 0 -1px 0 0 #373737, 0 1px 0 0 #373737;
 				}
 
 			.wrapper.spotlight.style4 {
@@ -3881,7 +3881,15 @@
 
 	}
 
-/* ADD ONS*/
+/* ADD ONS */
 .teamCircle {
     border-radius: 100%;
+}
+
+	/* Logo */
+.arlogo {
+	width: 20%;
+	height: 20%;
+	/*border: solid 2px rgba(255, 255, 255, 0.5);*/
+	/*border-radius: 100%;*/
 }
