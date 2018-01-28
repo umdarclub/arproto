@@ -3000,7 +3000,7 @@
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: coral;
+			background: #CC393C;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3047,7 +3047,6 @@
 					border: 0;
 					display: block;
 					font-family: Raleway, Helvetica, sans-serif;
-					font-size: 0.8em;
 					font-weight: 200;
 					letter-spacing: 0.1em;
 					line-height: 1.85em;
@@ -3056,7 +3055,7 @@
 				}
 
 					#menu .links li a:hover {
-						background: #ff430f;
+						background: #ff3b3f;
 					}
 
 		@media screen and (max-width: 736px) {
@@ -3072,6 +3071,38 @@
 				}
 
 		}
+
+
+
+
+
+
+.twitter {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 14px;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.twitter:hover {
+  color: #FF7D6D;
+  text-decoration: none;
+}
+
+span {
+  font-style: italic;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+
 
 	body.is-menu-visible #page-wrapper {
 		-moz-filter: blur(1.5px);
@@ -3759,11 +3790,9 @@
 
 		#footer .inner form {
 			margin: 0 3em 0 0;
-			width: calc(50% - 1.5em);
 		}
 
 		#footer .inner .contact {
-			width: calc(50% - 1.5em);
 		}
 
 		#footer .inner .copyright {
@@ -3893,3 +3922,51 @@
 	/*border: solid 2px rgba(255, 255, 255, 0.5);*/
 	/*border-radius: 100%;*/
 }
+
+/* Floating Social Media Bar Style Starts Here */
+
+.fl-fl {
+  background: #000000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 15px;
+  width: 200px;
+  position: fixed;
+  right: -150px;
+  z-index: 1000;
+  font: normal normal 10px Arial;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.fa {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fl-fl:hover {
+  right: 0;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px!important;
+  vertical-align: top!important;
+}
+
+.float-fb {
+  top: 34em;
+}
+
+.float-tw {
+  top: 40em;
+}
+/* Floating Social Media Bar Style Ends Here */
