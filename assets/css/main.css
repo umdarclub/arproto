@@ -3219,7 +3219,7 @@ img {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/arclub.jpg");
+				background-image: linear-gradient(to top, rgba(14, 11, 22, .9), rgba(14, 11, 22, 1)), url("../../images/arclub.jpg");
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3329,7 +3329,7 @@ img {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/arclub.jpg");
+			background-image: linear-gradient(to top, rgba(14, 11, 22, .9), rgba(14, 11, 22, 1)), url("../../images/arclub.jpg");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
@@ -3828,7 +3828,7 @@ img {
 
 		#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(14, 11, 22, .9), rgba(14, 11, 22, 1)), url("../../images/arclub.jpg");			
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
