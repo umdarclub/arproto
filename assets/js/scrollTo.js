@@ -1,26 +1,18 @@
-$( document ).ready( function() {
-  $(".one").click(function() { /*select class that triggers scroll*/
-    $('html, body').animate({
-        scrollTop: $(".two").offset().top /*class you want to scroll to!!*/
-    }, 1000); /*animation time length*/
-});
-
-$(".two").click(function() {
-    $('html, body').animate({
-        scrollTop: $(".three").offset().top
-    }, 1000);
-});
+// on click event on all anchors with a class of scrollTo
 
 
-$(".three").click(function() {
-    $('html, body').animate({
-        scrollTop: $(".four").offset().top
-    }, 1000);
+$(document).ready(function($){
+    $('.scroll').on('click',function(e) {
+	e.preventDefault();
+	var offset = 0;
+	var target = this.hash;
+	if ($(this).data('offset') != undefined) offset = $(this).data('offset');
+	$('html, body').stop().animate({
+		'scrollTop': $(target).offset().top - offset
+	}, 500, 'swing', function() {
+		// window.location.hash = target;
+	});
+});
 });
 
-$(".four").click(function() {
-    $('html, body').animate({
-        scrollTop: $(".one").offset().top
-    }, 700);
-});
-});
+ 
