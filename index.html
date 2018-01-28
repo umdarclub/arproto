@@ -27,6 +27,8 @@
 		
 	</head>
 	<body>
+        
+
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
@@ -45,25 +47,36 @@
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="index.html" class = "active" >Home</a></li>
-								<li><a href="#one" data-target="one">About Us</a></li>
-								<li><a href="#two" data-target="two">Mission</a></li>
-								<li><a href="#three" data-target="three">Values</a></li>
+								<li><a class="scroll" href="#one" data-offset="200">About Us</a></li>
+								<li><a class="scroll" href="#two" data-offset="200">Mission</a></li>
+								<li><a class="scroll" href="#three" data-offset="200">Values</a></li>
 								<!--
 								<li><a href="#four" data-target="four">Our Team</a></li>
                                 -->
-                                <li><a href="#five" data-target="five">Events</a></li>
+                                <li><a class="scroll" href="#five" data-offset="200">Events</a></li>
                                <!--
                                 <li><a href="#six" data-target="six">Our Videos</a></li>
                                -->
-                                <li><a href="#footer" data-target="footer">Contact Us</a></li>
+                                <li><a class="scroll" href="#footer" data-offset="200">Contact Us</a></li>
 
-								<li><a href="https://www.facebook.com/groups/shape.reality/"><span class = "icon fa-facebook"></span></a>							
-								</li>
 
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
 					</nav>
+                
+<!-- Floating Social Media bar Starts -->
+<div class="float-sm">
+    <div class="fl-fl float-fb">
+        <i class="fa fa-facebook"></i>
+        <a href="https://www.facebook.com/groups/shape.reality/" target="_blank"> Like us!</a>
+    </div>
+    <div class="fl-fl float-tw">
+        <i class="fa fa-twitter"></i>
+        <a href="https://twitter.com/_arclub" target="_blank">Follow us!</a>
+    </div>
+</div>
+<!-- Floating Social Media bar Ends -->
 
 				<!-- Banner -->
 					<section id="banner">
@@ -168,11 +181,11 @@
 						-->
                         <!-- Five: Events -->
                         <section id="five" class="wrapper spotlight style3">
-                           <div class="content">
-										<h2 class="major align-center">Events</h2>
-										<p class = "align-center">Feel free to stop by one of our events!</p>
-									</div>
+                        <div class = "inner">
+                            
 								<div class="table-wrapper">
+                                    <h2 class="major align-center">Events</h2>
+                                    <p class = "align-center">Check out some of our events!</p>
 											<table class="alt">
 												<thead>
 													<tr>
@@ -362,6 +375,7 @@
 												</tbody>
 											</table>
 										</div>
+                            </div>
 							</section>
                         
 						<!-- Six: Videos -->
@@ -413,7 +427,7 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<form action="mailto:umd.ar.club@gmail.com" method="post" enctype="text/plain">
+							<form action="https://formspree.io/umd.ar.club@gmail.com"method="POST">
 								<div class="field">
 									<label for="name">Name</label>
 									<input type="text" name="name" id="name" />
@@ -445,6 +459,8 @@
 		<!-- Scripts -->
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
