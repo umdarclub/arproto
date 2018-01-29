@@ -3808,10 +3808,10 @@ img {
 				color: rgba(255, 255, 255, 0.65);
 				display: inline-block;
 				/*font-size: 0.9em;*/
-				line-height: 1;
+				line-height: 2;
 				margin-left: 1em;
 				padding: 0;
-				padding-left: 1em;
+				padding-left: 2em;
 			}
 
 				#footer .inner .copyright li:first-child {
